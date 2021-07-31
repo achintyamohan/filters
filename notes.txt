@@ -1,0 +1,14 @@
+Misc notes taken from multiple sources, just to jot down stuff so I don't
+forget it.
+
+- In probablistic robotics, quantities such as sensor measurements, controls,
+  and the states that a robot and its environment might assume are modeled as
+random variables. These variables can take on multiple values, and they do so
+according to specific probabilistic laws.
+
+- Probabilistic inference is the process of calculating these laws for random
+  variable that are derived from other random variables, such as those
+modeling sensor data.
+
+- 
+

@@ -18,6 +18,9 @@ posterior = (likelihood * prior) / normalization
     also, normalization here means a factor which scales the values to they sum to 1.
     remember, BOTH the prior and posterior are probability distributions (and hence sum to 1)
 
-<Pick up from "Terminology" section in Chapter 2>
+Some lingo-
 
+- the system behavior is modeled wwith the process model. The error in the model is called system
+error or process error.
+    
 """
