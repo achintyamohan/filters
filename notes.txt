@@ -1,14 +1,34 @@
 Misc notes taken from multiple sources, just to jot down stuff so I don't
 forget it.
 
-- In probablistic robotics, quantities such as sensor measurements, controls,
-  and the states that a robot and its environment might assume are modeled as
-random variables. These variables can take on multiple values, and they do so
-according to specific probabilistic laws.
+	- In probablistic robotics, quantities such as sensor measurements,
+		controls, and the states that a robot and its environment might assume are
+		modeled as random variables. These variables can take on multiple values,
+		and they do so according to specific probabilistic laws.
 
-- Probabilistic inference is the process of calculating these laws for random
-  variable that are derived from other random variables, such as those
-modeling sensor data.
+	- Probabilistic inference is the process of calculating these laws for random 
+	variable that are derived from other random variables, such as those modeling sensor data.
 
-- 
+	- The typical definition of conditional probablity is that P(A|B) = P(A∩B) / P(B)
 
+	this is often interpreted as the conditional probablity of A given that B occurred.
+
+	- The term P(A")B) in the conditional probability expression can be substituted for 
+	P(B|A) * P(A)
+
+	This now gives us Bayes' Theorem: P(A|B) = P(B|A) * P(A) / P(B)
+
+	- Total Probablitly Theorem- 
+			P(A) = ∑P(A∩B)		for all B
+
+	- The "expected value" of a random variable X (aka "expectation" or "mean") 
+	with PMF pₓ(x) is
+			E[X] = ∑xpₓ(x)	for all x
+
+	- Variance of a random variable X-
+			var(X) = E[(X-E[X])²] = E[X²]-(E[X])² = ∑(x-[X])²pₓ(x)
+
+	- Standard deviation of random variable X-
+			σₓ = sqrt(var(X))
+
+	- 

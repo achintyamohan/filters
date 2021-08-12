@@ -20,7 +20,7 @@ posterior = (likelihood * prior) / normalization
 
 Some lingo-
 
-- the system behavior is modeled wwith the process model. The error in the model is called system
+- the system behavior is modeled with the process model. The error in the model is called system
 error or process error.
-    
+
 """
